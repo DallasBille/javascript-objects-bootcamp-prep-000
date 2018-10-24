@@ -1,12 +1,12 @@
-var playlist={
-  "Slowdive":"Alison",
-  "My Bloody Valentine":"Sometimes"
-}
-function updatePlaylist(playlist, artistName, songTitle){
- return playlist[artistName]=songTitle
+{var playlist= {thedoors:"LA Woman"};}
+
+function updatePlaylist(playlist,artistName,songTitle){
+playlist[artistName]= songTitle
+  
 }
 function removeFromPlaylist(playlist, artistName){
-var myNewVariable=playlist
-delete myNewVariable[artistName]
+  delete playlist[artistName]
+  return playlist
 }
-  
+
+
